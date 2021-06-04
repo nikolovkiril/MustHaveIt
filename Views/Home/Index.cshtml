@@ -1,0 +1,15 @@
+﻿@model MustHaveIt.ViewModels.Home.IndexViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome @Model.Name</h1>
+    <h2> Users Count: @Model.UsersCount</h2>
+    <p>It`s @Model.Year year</p>
+    <p>        It`s only @Model.DateTime</p>
+        Curent time: @Model.Time
+     <li>   Id: @Model.Id
+    </li>
+
+</div>
